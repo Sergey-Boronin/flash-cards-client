@@ -1,0 +1,17 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: minmax(auto, 400px) minmax(auto, 300px) minmax(auto, 100px);
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 0.125rem 0.25rem #00000014;
+}
+
+.cardItem {
+  padding: 16px;
+}
